@@ -11,7 +11,19 @@ export default {
     [FormGroupInput.name]: FormGroupInput,
   },
   data() {
-    return {};
+    return {
+      examplePhotos: [
+        { name: "img/example/example_1.jpg", src: "Пример" },
+        { name: "img/example/example_2.jpg", src: "Пример" },
+        { name: "img/example/example_3.jpg", src: "Пример" },
+        { name: "img/example/example_4.jpg", src: "Пример" },
+        { name: "img/example/example_5.jpg", src: "Пример" },
+        { name: "img/example/example_6.jpg", src: "Пример" },
+        { name: "img/example/example_7.jpg", src: "Пример" },
+        { name: "img/example/example_8.jpg", src: "Пример" },
+        { name: "img/example/example_9.jpg", src: "Пример" },
+      ],
+    };
   },
   methods: {},
   mounted() {
@@ -141,31 +153,31 @@ export default {
       </div>
       <div class="b2_center">
         <div class="b2_center_item">
-          <img src="img/user_1_post.jpg" alt="" />
+          <img src="img/post/user_1_post.jpg" alt="" />
         </div>
         <div class="b2_center_item">
-          <img src="img/user_2_post.jpg" alt="" />
+          <img src="img/post/user_2_post.jpg" alt="" />
         </div>
         <div class="b2_center_item">
-          <img data-src="img/user_3_post.jpg" class="user_3" alt="" />
+          <img data-src="img/post/user_3_post.jpg" class="user_3" alt="" />
         </div>
         <div class="b2_center_item">
-          <img data-src="img/user_4_post.jpg" class="user_4" alt="" />
+          <img data-src="img/post/user_4_post.jpg" class="user_4" alt="" />
         </div>
         <div class="b2_center_item">
-          <img data-src="img/user_5_post.jpg" class="user_5" alt="" />
+          <img data-src="img/post/user_5_post.jpg" class="user_5" alt="" />
         </div>
         <div class="b2_center_item">
-          <img data-src="img/user_6_post.jpg" class="user_6" alt="" />
+          <img data-src="img/post/user_6_post.jpg" class="user_6" alt="" />
         </div>
         <div class="b2_center_item">
-          <img data-src="img/user_7_post.jpg" class="user_7" alt="" />
+          <img data-src="img/post/user_7_post.jpg" class="user_7" alt="" />
         </div>
         <div class="b2_center_item">
-          <img data-src="img/user_8_post.jpg" class="user_8" alt="" />
+          <img data-src="img/post/user_8_post.jpg" class="user_8" alt="" />
         </div>
         <div class="b2_center_item">
-          <img data-src="img/user_9_post.jpg" class="user_9" alt="" />
+          <img data-src="img/post/user_9_post.jpg" class="user_9" alt="" />
         </div>
       </div>
       <div class="b2_footer">
@@ -410,28 +422,32 @@ export default {
         </div>
       </div>
       <div class="b7_box slide">
-        <div class="b7_item"><img src="img/example_1.jpg" alt="" /></div>
-        <div class="b7_item"><img src="img/example_2.jpg" alt="" /></div>
         <div class="b7_item">
-          <img data-src="img/example_3.jpg" class="exp_3" alt="" />
+          <img src="img/example/example_1.jpg" alt="" />
         </div>
         <div class="b7_item">
-          <img data-src="img/example_4.jpg" class="exp_4" alt="" />
+          <img src="img/example/example_2.jpg" alt="" />
         </div>
         <div class="b7_item">
-          <img data-src="img/example_5.jpg" class="exp_5" alt="" />
+          <img data-src="img/example/example_3.jpg" class="exp_3" alt="" />
         </div>
         <div class="b7_item">
-          <img data-src="img/example_6.jpg" class="exp_6" alt="" />
+          <img data-src="img/example/example_4.jpg" class="exp_4" alt="" />
         </div>
         <div class="b7_item">
-          <img data-src="img/example_7.jpg" class="exp_7" alt="" />
+          <img data-src="img/example/example_5.jpg" class="exp_5" alt="" />
         </div>
         <div class="b7_item">
-          <img data-src="img/example_8.jpg" class="exp_8" alt="" />
+          <img data-src="img/example/example_6.jpg" class="exp_6" alt="" />
         </div>
         <div class="b7_item">
-          <img data-src="img/example_9.jpg" class="exp_9" alt="" />
+          <img data-src="img/example/example_7.jpg" class="exp_7" alt="" />
+        </div>
+        <div class="b7_item">
+          <img data-src="img/example/example_8.jpg" class="exp_8" alt="" />
+        </div>
+        <div class="b7_item">
+          <img data-src="img/example/example_9.jpg" class="exp_9" alt="" />
         </div>
       </div>
     </div>
