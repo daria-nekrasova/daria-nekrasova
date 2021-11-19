@@ -29,7 +29,7 @@ export default {
     <div class="main">
       <div class="b1_box">
         <div class="b1_box_1">
-          <p class="b1_t1">ИНСТАФОТОСЕТ</p>
+          <p class="b1_t1">Инста фотосет</p>
           <h1 class="h1">Фотосессии под ключ <br>для Инстаграм в Минске </h1>
         </div>
         <div class="b1_box_2">
