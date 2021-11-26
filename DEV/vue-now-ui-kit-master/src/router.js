@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import Index from './pages/Index.vue';
+import Index2 from './pages/Index2.vue';
 import Landing from './pages/Landing.vue';
 import Login from './pages/Login.vue';
 import Profile from './pages/Profile.vue';
@@ -22,6 +23,16 @@ export default new Router({
         footer: { backgroundColor: "black" },
       },
     },
+    // {
+    //   path: "*",
+    //   name: "index2",
+    //   // components: { default: Index, header: MainNavbar, footer: MainFooter },
+    //   components: { default: Index2 },
+    //   props: {
+    //     header: { colorOnScroll: 400 },
+    //     footer: { backgroundColor: "black" },
+    //   },
+    // },
     // {
     //   path: '/',
     //   name: 'index',
