@@ -24,6 +24,15 @@ body {
   outline: none;
 }
 
+.white-background {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.07),
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0.09)
+  );
+}
+
 .main {
   min-width: 300px;
   margin: 0 auto;
@@ -110,8 +119,9 @@ body {
   font-size: 0;
   margin: auto;
   text-align: center;
-  background: url("../img/man.jpeg") center no-repeat;
+  background: url("../img/photographer.jpeg") center no-repeat;
   background-size: cover;
+  box-shadow: 0 55px 32px -11px #1b1819 inset;
 }
 
 .b1_box_2_text {
@@ -206,6 +216,11 @@ body {
 .b2_text p {
   line-height: 125%; /* or 20px */
   color: #333333;
+}
+
+.b2_img {
+  margin-top: -70px;
+  margin-bottom: 15px;
 }
 
 .b2_top_box {
@@ -311,6 +326,7 @@ body {
 
 .b2_text {
   padding: 0 0 9px;
+  position: relative;
 }
 
 .b2_center_item img {
@@ -432,7 +448,7 @@ body {
   display: block;
   width: 100%;
   position: relative;
-  background: url("../img/woman.jpg") center no-repeat;
+  background: url("../img/woman.jpeg") center no-repeat;
   background-size: cover;
   max-width: 450px;
   margin: 0 auto;
@@ -462,6 +478,7 @@ body {
   padding: 43px 0 9px;
   margin: -119px 0 0;
   position: relative;
+  color: black;
 }
 
 .love {
@@ -485,9 +502,9 @@ body {
 }
 
 .b4_2 {
-  height: 407px;
+  height: 730px;
   width: 100%;
-  background: url("../img/b4_img.jpg") center no-repeat;
+  background: url("../img/b4_img.jpeg") center no-repeat;
   background-size: cover;
 }
 
@@ -551,6 +568,10 @@ body {
 .b4_3 p {
   color: #fff;
   line-height: 125%;
+}
+
+.b4_3 .main {
+  margin: 30px auto;
 }
 
 .b5 {
@@ -754,7 +775,7 @@ body {
   width: 100%;
   max-width: 450px;
   margin: -5px auto 0;
-  background: url("../img/b8_bg.jpg") center no-repeat;
+  background: url("../img/retro.jpeg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -935,12 +956,23 @@ body {
 
 .b10 {
   background: url("../img/b10_bg.jpg") top center no-repeat;
-  background-size: 100%;
+  background-size: cover;
   overflow: hidden;
 }
 
 .b10_2 p {
   color: #333333;
+}
+
+.b10_2 .main_1 {
+  max-width: 415px;
+  margin: 0 auto;
+  background: linear-gradient(
+    180deg,
+    #070105 72.1%,
+    rgba(7, 1, 5, 0.360625) 89.73%,
+    rgba(7, 1, 5, 0.01) 100%
+  );
 }
 
 .b10_2 {
@@ -980,6 +1012,7 @@ body {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  justify-content: center;
   margin: 14px 0 26px;
 }
 
