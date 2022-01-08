@@ -2,6 +2,7 @@
 // import VueMasonryWall from "vue-masonry-wall";
 import { Button, FormGroupInput } from "@/components";
 // import SwiperSlider from "../components/SwiperSlider";
+import InstaButton from "../components/InstaButton";
 import InstaStatistic from "../components/InstaStatistic";
 
 export default {
@@ -10,6 +11,7 @@ export default {
   components: {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput,
+    InstaButton,
     InstaStatistic,
   },
   data() {
