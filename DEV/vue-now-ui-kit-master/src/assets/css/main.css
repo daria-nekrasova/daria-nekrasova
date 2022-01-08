@@ -122,6 +122,7 @@ body {
   background: url("../img/photographer.jpeg") center no-repeat;
   background-size: cover;
   box-shadow: 0 55px 32px -11px #1b1819 inset;
+  border: 1px solid #1b1819;
 }
 
 .b1_box_2_text {
@@ -325,7 +326,7 @@ body {
 }
 
 .b2_text {
-  padding: 0 0 9px;
+  padding: 0 0 50px;
   position: relative;
 }
 
@@ -389,7 +390,7 @@ body {
 
 .b3 {
   background: #e8e4dd;
-  padding: 0px 0 2px;
+  padding: 0 0 2px;
 }
 
 .b3_t1 {
@@ -398,8 +399,8 @@ body {
   line-height: 141%;
   text-transform: uppercase;
   color: #ffffff;
-  margin: 0px 0 0;
-  padding: 33px 0 13px;
+  margin: 0;
+  padding: 30px 0 15px;
 }
 
 .b3_t2 {
@@ -436,7 +437,7 @@ body {
     #848484 103.18%
   );
   padding: 0 0 62px;
-  margin: 0 0 -116px;
+  margin: 0 0 -40px;
 }
 
 .b3_1 .main {
@@ -475,8 +476,7 @@ body {
     #c9c8c0 20.91%,
     #d1d0c9 91.23%
   );
-  padding: 43px 0 9px;
-  margin: -119px 0 0;
+  padding-bottom: 9px;
   position: relative;
   color: black;
 }
@@ -502,9 +502,9 @@ body {
 }
 
 .b4_2 {
-  height: 730px;
-  width: 100%;
-  background: url("../img/b4_img.jpeg") center no-repeat;
+  height: 1240px;
+  width: auto;
+  background: url("../img/woman_5.jpeg") center no-repeat;
   background-size: cover;
 }
 
@@ -607,6 +607,7 @@ body {
   -webkit-transform: rotate(9.36deg);
   -ms-transform: rotate(9.36deg);
   transform: rotate(9.36deg);
+  padding: 30px;
 }
 
 .b5_img {
@@ -771,11 +772,11 @@ body {
 }
 
 .b8_2 {
-  height: 400px;
+  height: 500px;
   width: 100%;
   max-width: 450px;
   margin: -5px auto 0;
-  background: url("../img/retro.jpeg") center no-repeat;
+  background: url("../img/man.jpeg") center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -810,8 +811,8 @@ body {
 }
 
 .b8_1 {
-  position: relative;
-  z-index: 9;
+  /*position: relative;*/
+  /*z-index: 9;*/
 }
 
 .b8_1 p {
@@ -864,11 +865,11 @@ body {
 }
 
 .b9_2 {
-  height: 272px;
+  height: 600px;
   width: 100%;
   max-width: 450px;
   margin: -5px auto 0;
-  background: url(../img/woman_2.png) center no-repeat;
+  background: url(../img/woman_2.jpeg) center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -891,6 +892,36 @@ body {
   position: absolute;
   top: -74px;
   content: "";
+}
+
+.b9_4 {
+  height: 272px;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 15px;
+  background: url(../img/woman_3.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.b9_5 {
+  height: 600px;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 15px;
+  background: url(../img/woman_4.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.b9_6 {
+  height: 420px;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto 15px;
+  background: url(../img/retouch.jpeg) center no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .b9 {
@@ -1083,17 +1114,17 @@ p.b11_t1 span b {
   align-items: center;
 }
 
+.b11_item {
+  padding: 0 17px;
+}
+
 .b11_item p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center;
-}
-
-.b11_item {
-  padding: 0 17px;
+  align-items: end;
 }
 
 .b11_item p span {
